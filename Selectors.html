@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo selectors & more designing</title>
+    <style>
+        .container{
+            border: 2px solid red;
+           background-color: rgb(204, 127, 12);
+           padding: 34px;
+           margin: 34px auto;
+           width: 666px;
+        }
+        a{
+            text-decoration:none;
+            color: black;
+        } 
+        a.hover{
+            color: rgb(224, 243, 24);
+            background-color: rgb(15, 16, 12);
+        }
+        a.visited{
+            color: rgb(209, 225, 30);
+        }
+        .btn.active{
+            transform: translate(5px ,5px);
+           box-shadow: 0 0 0 rgb(165, 190, 26);
+        }
+        .btn
+        {
+            background-color: rgb(149, 108, 108);
+            padding: 6px;
+            border: none;
+            cursor: pointer;
+            font-size: 13px;
+            border-radius: 4px;
+            transition: transform 0.1s,box-shadow 0.1s;
+            box-shadow: 4px 4px 0 red;
+
+
+        }
+        .btn:hover{
+            background-color: rgb(95, 167, 226);
+          
+        }
+  
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+        <h3>this is my heading</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora pariatur in explicabo, sapiente illum recusandae velit ipsa alias sunt nulla. Numquam quo pariatur blanditiis, culpa ratione quas ipsum consequatur nobis, tempora saepe architecto nam.
+        </p>
+        <a href="" class="btn">Read more</a>
+        <button class="btn">Contact us</button>
+
+    </div>
+</body>
+</html>

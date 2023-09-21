@@ -1,0 +1,59 @@
+.main{
+    border: 2px solid red;
+
+}
+
+
+.container{
+    border: 2px solid black;
+    height: 400px;
+    width: 400px; 
+    margin: 100px;
+position: relative;
+}
+
+.item1{
+    border: 2px solid rgb(207, 43, 43);
+    height: 80px;
+    width: 80px;
+    margin: 8px;
+    display: inline-block;
+    
+   
+    
+}
+
+.item2{
+    border: 2px solid rgb(30, 119, 98);
+    height: 80px;
+    width: 80px;
+    margin: 8px;
+    display: inline-block;
+    position: absolute;
+    bottom: 10px;
+    left: 0px;
+    right: 100px;
+
+}
+
+.item3{
+    border: 2px solid rgb(36, 28, 121);
+    height: 80px;
+    width: 80px;
+    margin: 8px;
+    display: inline-block;
+    position: relative;
+}
+nearest position ke according absolute used hota h aur 
+but if nearest position ancestor doesnt exit then it adjust itself according to body
+1-doesn't maintain vacant size
+
+fixed pe body ke according after hitting the given position it had itselfon
+
+Relative actual position ke according use hota h
+1-maintain vacant space
+
+fixed browser ke according use hota h'
+
+stiky- position itself according to body o 7 work only in its parent contained
+
